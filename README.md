@@ -65,4 +65,22 @@ resume_generator_app/
 </pre>
 
 ---
+
+## ⚙️ Installation and Setup
+
+### 1️⃣ Clone the repository
+
+<pre>
+  git clone https://github.com/M-Aditya-11/resume_generator_app.git
+</pre>
+
+### 2️⃣ Navigate to project folder
+
+<pre>
+  cd resume_generator_app
+</pre>
+
+---
+
+
 Working on remining stuff 👍
