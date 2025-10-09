@@ -30,9 +30,10 @@ This application allows users to easily create, preview, and download profession
 ---
 
 ## 🗂 Folder Structure (Tentative ⚒️)  
-<pre>  
+
+```pgsql  
 resume_generator_app/
-├── client/                # React frontend
+├── frontend/                # React frontend
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
@@ -46,7 +47,7 @@ resume_generator_app/
 │   │   └── styles/
 │   └── package.json
 │
-├── server/                # Node.js backend
+├── backend/                # Node.js backend
 │   ├── models/
 │   │   └── User.js
 │   │   └── Resume.js
@@ -62,7 +63,7 @@ resume_generator_app/
 │
 ├── README.md
 └── .gitignore
-</pre>
+```
 
 ---
 
@@ -70,17 +71,66 @@ resume_generator_app/
 
 ### 1️⃣ Clone the repository
 
-<pre>
-  git clone https://github.com/M-Aditya-11/resume_generator_app.git
-</pre>
+```bash
+git clone https://github.com/M-Aditya-11/resume_generator_app.git
+```
 
 ### 2️⃣ Navigate to project folder
 
-<pre>
-  cd resume_generator_app
-</pre>
+```bash
+cd resume_generator_app
+```
 
 ---
+
+### 3️⃣ Install dependencies for both frontend and backend
+
+```bash
+cd frontend
+npm install
+cd ../backend
+npm install
+```
+
+### 4️⃣ Set up environment variables
+
+Create a `.env` file inside the `server/` folder and add:
+
+```ini
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+### 5️⃣ Run the development servers
+
+ - For frontend :
+```bash
+cd frontend
+npm run dev
+```
+
+ - For backend :
+```bash
+cd backend
+npm start
+```
+
+The app will be available at
+
+👉 **Frontend**: `http://localhost:5137`
+
+👉 **Backend**: `http://localhost:5000`
+
+---
+
+## 🧾 Usage
+
+ 1. Register or log in to create an account.
+ 2. Enter your personal, education, and experience details.
+ 3. Choose a resume template.
+ 4. Preview your resume in real time.
+ 5. Download the resume as PDF or save it to your account.
 
 
 Working on remining stuff 👍
