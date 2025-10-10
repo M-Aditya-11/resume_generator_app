@@ -132,5 +132,57 @@ The app will be available at
  4. Preview your resume in real time.
  5. Download the resume as PDF or save it to your account.
 
+---
 
-Working on remining stuff 👍
+## 🧩 API Endpoints (Backend Overview)
+
+| Method | Endpoint              | Description               |
+| ------ | --------------------- | ------------------------- |
+| `POST` | `/api/auth/register`  | Register a new user       |
+| `POST` | `/api/auth/login`     | Authenticate user         |
+| `POST` | `/api/resume`         | Create or update a resume |
+| `GET`  | `/api/resume/:userId` | Get user’s saved resume   |
+
+---
+
+## 🔮 Future Enhancements
+
+- 🧑‍💼 AI-based resume content suggestions.
+
+- 🎨 Add customizable color and font options.
+
+- ☁️ Cloud resume storage and sharing links.
+
+- 💌 Direct email export and LinkedIn integration.
+
+- 📱 Mobile app version (React Native).
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+
+2. Create a new branch `(git checkout -b feature-name)`
+
+3. Commit your changes `(git commit -m 'Add feature')`
+
+4. Push to main branch `(git push origin feature-name)`
+
+5. Create a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License – feel free to use, modify, and distribute.
+
+---
+
+## 👨‍💻 Author
+
+💡 Tech enthusiast | Full-Stack Developer  
+📧 [adityamandavkar11@outlook.com]  
+🌐 [www.linkedin.com/in/adityamandavkar11] | [[M-Aditya-11](https://github.com/M-Aditya-11)]  
