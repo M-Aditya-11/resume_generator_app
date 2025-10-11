@@ -7,12 +7,39 @@
 .logo{
     width: 200px;
 }
+.navbar-box{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
 .navbar-menu{
     display: flex;
     list-style: none;
     gap: 30px;
     color: rgb(11, 1, 1);
     font-size: 20px;
+}
+.navbar-menu li{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+}
+.navbar-menu li::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(11, 4, 134);
+    transition: width 0.3s;
+}
+.navbar-menu li:hover::after {
+    color: rgb(6, 3, 67);
+    width: 100%;
 }
 .navbar-right{
     display: flex;
