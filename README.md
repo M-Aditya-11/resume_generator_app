@@ -1,4 +1,4 @@
-# 🧾 Resume Generator Web Application  
+#  🌺 HibiSys (🧾 A Resume Generator Web Application )  
 
 A full-stack **Resume Generator Web App** building with the **MERN (MongoDB, Express, React, Node.js)** stack.  
 This application allows users to easily create, preview, and download professional resumes by filling in their details through an interactive web interface.  
