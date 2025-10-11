@@ -157,6 +157,8 @@ The app will be available at
 
 - 📱 Mobile app version (React Native).
 
+- 🌐 Multi-language support for the web app to make it accessible worldwide.
+
 ---
 
 ## 🤝 Contributing
