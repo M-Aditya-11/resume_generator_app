@@ -11,8 +11,8 @@ const Navbar = () => {
             <img src={assets.logo} alt="" className="logo" />
             <div className="navbar-box">
                 <ul className="navbar-menu">
-                    <li className={menu==="resume-templates"?"active":""}>Resume Templates</li>
-                    <li className={menu==="cover-letters"?"active":""}>Cover Letters</li>
+                    <li onClick={()=>setMenu("resume-templates")} className={menu==="resume-templates"?"active":""}>Resume Templates</li>
+                    <li onClick={()=>setMenu("cover-letters")} className={menu==="cover-letters"?"active":""}>Cover Letters</li>
                 </ul>
                 <div className="navbar-right">
                     <button>Sign In</button>
