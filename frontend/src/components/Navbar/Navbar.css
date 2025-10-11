@@ -14,3 +14,21 @@
     color: rgb(11, 1, 1);
     font-size: 20px;
 }
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+.navbar button{
+    background: transparent;
+    font-size: 22px;
+    color: rgb(57, 4, 66);
+    border: 1px solid rgb(12, 23, 44);
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navbar button:hover{
+    background-color: rgb(11, 4, 134);
+    color: snow;
+}
