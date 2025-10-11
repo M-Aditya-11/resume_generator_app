@@ -6,6 +6,13 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <img src={assets.logo} alt="" className="logo"/>
+            <ul className="navbar-menu">
+                <li>Resume Templates</li>
+                <li>Cover Letters</li>
+            </ul>
+            <div className="navbar-right">
+                <button>Sign In</button>
+            </div>
         </div>
     )
     
