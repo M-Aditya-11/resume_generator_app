@@ -1,23 +1,22 @@
 .navbar{
-    padding: 20px 0;
+    padding: 0 28px 20px 9px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .logo{
-    width: 230px;
+    width: 350px;
 }
 .navbar-box{
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 100px;
 }
 .navbar-menu{
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 100px;
     color: rgb(34, 33, 33);
-    font-size: 20px;
 }
 .navbar-menu li{
     cursor: pointer;
@@ -25,6 +24,7 @@
     font-weight: 500;
     position: relative;
     padding-bottom: 5px;
+    font-size: 35px;
 }
 .navbar-menu li::after{
     content: "";
@@ -49,7 +49,7 @@
 }
 .navbar button{
     background: transparent;
-    font-size: 22px;
+    font-size: 38px;
     color: rgb(57, 4, 66);
     border: 1px solid rgb(12, 23, 44);
     padding: 10px 30px;
