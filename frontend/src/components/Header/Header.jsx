@@ -12,7 +12,7 @@ const Header = () => {
                     <p>get interviews</p>
                 </div>
                 <div className="hero-top-right-image">
-                    <img src={assets.hero_image_top} alt="" className="hero-image-top" />
+                    <img src={assets.hero_image_top} alt="" className="hero-top-image" />
                 </div>
             </div>
         </div>
