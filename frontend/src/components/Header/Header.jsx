@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets.js'
 
 const Header = () => {
     return (
-        <div className="hero">
+        <div className="header">
             <div className="hero-top-left">
                 <div className="hero-top-left-heading">
                     <p>Build Resume</p>

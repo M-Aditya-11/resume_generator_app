@@ -1,0 +1,21 @@
+.header{
+    padding: 0 28px 20px 9px;
+    background :linear-gradient(to top, #e5a392, #c3ab85);
+}
+.hero-top-left-heading{
+    margin-left: 60px;
+}
+.hero-top-left-heading p{
+    font-size: 100px;
+}
+.hero-top-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-top-right-image{
+    margin-right: 150px;
+}
+.hero-top-image{
+    width: 500px;
+}
