@@ -9,6 +9,8 @@ import profile_icon from './profile_icon.png';
 import search_icon from './search_icon.png';
 import twitter_icon from './twitter_icon.png';
 import logo_animated from './logo_animated.gif';
+import hero_image_top from './hero_image_top.png';
+import hero_image_bottom from './hero_image_bottom.png';
 
 export const assets = {
     logo,
@@ -21,5 +23,7 @@ export const assets = {
     profile_icon,
     search_icon,
     twitter_icon,
-    logo_animated
+    logo_animated,
+    hero_image_top,
+    hero_image_bottom
 }
