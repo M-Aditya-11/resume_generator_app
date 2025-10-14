@@ -3,12 +3,12 @@
     background :linear-gradient(to top, #e5a392, #c3ab85);
 }
 .hero-top-left-heading{
-    margin-left: 60px;
+    margin-left: 150px;
 }
 .hero-top-left-heading p{
     font-size: 100px;
 }
-.hero-top-left{
+.hero-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,5 +17,22 @@
     margin-right: 150px;
 }
 .hero-top-image{
+    width: 500px;
+}
+.hero-bottom-right-heading{
+    margin-right: 60px;
+}
+.hero-bottom-right-heading p{
+    font-size: 100px;
+}
+.hero-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-bottom-left-image{
+    margin-left: 150px;
+}
+.hero-bottom-image{
     width: 500px;
 }
