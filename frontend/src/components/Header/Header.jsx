@@ -15,7 +15,7 @@ const Header = () => {
                     <img src={assets.hero_image_top} alt="" className="hero-top-image" />
                 </div>
             </div>
-            <button className="shine-btn">Create a Resume</button>
+            <button className="light-border-btn">Create a Resume</button>
             <div className="hero-bottom">
                 <div className="hero-bottom-left-image">
                     <img src={assets.hero_image_bottom} alt="" className="hero-bottom-image" />
