@@ -30,7 +30,7 @@ const Footer = () => {
                     <img src={assets.play_store} alt="" className="download-btn-playstore-playstore"/>
                 </div>
                 <div className="download-btn-appstore">
-                    <img src={assets.app_store} alt="" className="download-btn-playstore-appstore"/>
+                    <img src={assets.app_store} alt="" className="download-btn-appstore-appstore"/>
                 </div>
             </div>
         </div>
