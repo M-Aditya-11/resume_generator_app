@@ -1,11 +1,10 @@
 import React from "react";
 import './Footer.css'
-import { assets } from "../../assets/assets";
+import { assets } from "../../assets/assets.js";
 
 const Footer = () => {
     return (
         <div className="footer">
-            <br />
             <div className="left">
                 <p className="footer-heading">HibiSys</p>
                 <p>Terms and Conditions</p>
