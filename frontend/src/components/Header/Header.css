@@ -42,40 +42,7 @@
   font-size: 35px;
   color: #fff;
   background: #111;
-  border: 2px solid #ccc;
+  border: 2px solid #d63636;
   border-radius: 8px;
   cursor: pointer;
-  overflow: hidden;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Subtle light glow effect */
-.light-border-btn::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  border: 2px solid transparent;
-  background: linear-gradient(90deg, rgba(255,255,255,0.2), rgba(255,255,255,0.8), rgba(255,255,255,0.2));
-  background-size: 200% 200%;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
-  animation: shine-move 2s linear infinite;
-  mask-composite: exclude;
-}
-
-/* Show glow on hover */
-.light-border-btn:hover::before {
-  opacity: 1;
-}
-
-.light-border-btn:hover {
-  border-color: #fff;
-  box-shadow: 0 0 10px rgba(255,255,255,0.4);
-}
-
-@keyframes shine-move {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 200% 50%; }
 }
