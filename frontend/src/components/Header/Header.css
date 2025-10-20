@@ -45,8 +45,6 @@
   color: #fff;
   background: #298f96;
   border: 2px solid #e8dfe7;
-  border-radius: 8px;
-  cursor: pointer;
-  position: relative;
-  
+  border-radius: 15px;
+  cursor: pointer;  
 }
