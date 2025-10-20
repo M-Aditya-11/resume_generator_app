@@ -36,13 +36,17 @@
 .hero-bottom-image{
     width: 500px;
 }
-.light-border-btn {
+.light-border-btn{
   position: relative;
   padding: 12px 28px;
+  margin-left: 150px;
+  margin-bottom: 45px;
   font-size: 35px;
   color: #fff;
   background: #298f96;
   border: 2px solid #e8dfe7;
   border-radius: 8px;
   cursor: pointer;
+  position: relative;
+  
 }
