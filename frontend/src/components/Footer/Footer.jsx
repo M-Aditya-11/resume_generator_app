@@ -5,6 +5,7 @@ import { assets } from "../../assets/assets.js";
 const Footer = () => {
     return (
         <div className="footer">
+            <div className="footer-top">
             <div className="left">
                 <p className="footer-heading">HibiSys</p>
                 <p>Terms and Conditions</p>
@@ -31,6 +32,10 @@ const Footer = () => {
                 <div className="download-btn-appstore">
                     <img src={assets.app_store} alt="" className="download-btn-appstore-appstore"/>
                 </div>
+            </div>
+            </div>
+            <div className="footer-bottom">
+                <p>HibiSys © 2025 by Aditya Mandavkar. All rights reserved.</p>
             </div>
         </div>
     )

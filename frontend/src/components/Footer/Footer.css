@@ -1,11 +1,19 @@
 .footer{
     background-color: rgb(102, 5, 5);
+}
+.footer-top{
     display: flex;
     justify-content: space-between;
     align-items: self-start;
     padding: 0px 300px 10px 300px;
     color: white;
     font-size: 20px;
+}
+.footer-bottom p{
+    text-align: center;
+    color: rgb(244, 239, 239);
+    font-size: 20px;
+    margin-top: 20px;
 }
 .footer-heading{
     font-size: 35px;
