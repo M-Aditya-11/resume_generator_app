@@ -1,6 +1,6 @@
 .header{
     padding: 0 28px 20px 9px;
-    background :linear-gradient(to top, #e5a392, #c3ab85);
+    background :linear-gradient(to top, #e5a392, #d6ad6c);
 }
 .hero-top-left-heading{
     margin-left: 150px;
@@ -41,8 +41,8 @@
   padding: 12px 28px;
   font-size: 35px;
   color: #fff;
-  background: #111;
-  border: 2px solid #d63636;
+  background: #298f96;
+  border: 2px solid #e8dfe7;
   border-radius: 8px;
   cursor: pointer;
 }
