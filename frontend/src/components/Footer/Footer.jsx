@@ -8,16 +8,16 @@ const Footer = () => {
             <div className="footer-top">
             <div className="left">
                 <p className="footer-heading">HibiSys</p>
-                <p>Terms and Conditions</p>
-                <p>Privacy Policy</p>
-                <p>Cookie Policy</p>
-                <p>Send Feedback</p>
+                <p className="footer-sub-heading">Terms and Conditions</p>
+                <p className="footer-sub-heading">Privacy Policy</p>
+                <p className="footer-sub-heading">Cookie Policy</p>
+                <p className="footer-sub-heading">Send Feedback</p>
             </div>
             <div className="middle">
                 <p className="footer-heading">Need help?</p>
                 <p>+91 1234567890</p>
                 <p>info@hibisys.com</p>
-                <p>Site map</p>
+                <p className="footer-sub-heading">Site map</p>
             </div>
             <div className="right">
                 <p className="footer-heading">Stay Connected!</p>
