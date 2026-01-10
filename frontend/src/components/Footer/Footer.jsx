@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             </div>
             <div className="footer-bottom">
-                <p>HibiSys © 2025 by Aditya Mandavkar. All rights reserved.</p>
+                <p>HibiSys © 2026 by Aditya Mandavkar. All rights reserved.</p>
             </div>
         </div>
     )
